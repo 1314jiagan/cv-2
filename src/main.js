@@ -2,7 +2,7 @@ const div = dom.create("<tr><td>1</td></tr>");
 console.log(div);
 dom.after(test, div);
 const div3 = dom.create("<div id='dov'>3</div>");
-// dom.warp(test, div3);
+// dom.wrap(test, div3);
 const nodes = dom.empty(window.empty);
 console.log(nodes);
 dom.attr(test, "title", "hello");

@@ -13,7 +13,7 @@ window.dom = {
   append(parent, node) {
     parent.appendChild(node); //在parent里增加node节点
   },
-  warp(node, parent) {
+  wrap(node, parent) {
     dom.before(node, parent); //将node插入到parent前面 div node里增加一个parent，将node插入到parent前面，再将
     dom.append(parent, node); //在parent里增加node节点
   },
